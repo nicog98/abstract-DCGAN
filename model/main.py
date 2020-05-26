@@ -33,7 +33,7 @@ epochs = 25
 save_every = 1
 # Directories
 data_path = "../"
-dataset_name = "celeba-dataset"
+dataset_name = "abstract-dataset-small"
 checkpoint_dir = "./training_checkpoints"
 trial_nr = 11 # which training trial this is
 output_dir = "../images/trial_" + str(trial_nr)
