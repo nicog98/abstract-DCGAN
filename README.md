@@ -46,3 +46,25 @@ Launch your jupyter notebook and click "New" in the upper right corner to ensure
 ```bash
 jupyter notebook
 ```
+
+## Results
+
+### Trained on dataset of Abstract paintings for 100 epochs
+![grid of GAN-generated abstract images](./images/abstract-DCGAN_results/image_at_epoch_0099.png)
+![grid of GAN-generated abstract images](./images/abstract-DCGAN_results/image_at_epoch_0100.png)
+
+### Trained on dataset of Landscape paintings for 100 epochs
+![grid of GAN-generated landscape images](./images/abstract-DCGAN_results/image_at_epoch_0100_landscape.png)
+
+## Example Training Data
+![an abstract painting by Mark Rothko that is blue, orange and red](./images/example-data/mark-rothko_blue-orange-red.jpg)  
+
+Mark Rothko, *Blue, Orange, Red*, 1961  
+
+![an abstract painting by Joan Mitchell that is green and purple](./images/example-data/joan-mitchell_posted-1977.jpg)  
+
+Joan Mitchell, *Posted*, 1977  
+
+![an abstract painting by Barnett Newman that is black and white](./images/example-data/barnett-newman_twelfh-station-1965.jpg)  
+
+Barnett Newman, *Twelfth Station*, 1965
